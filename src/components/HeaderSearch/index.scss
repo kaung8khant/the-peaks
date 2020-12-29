@@ -1,0 +1,36 @@
+.header {
+  &__search {
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    border-bottom: 3px solid white;
+    width: 30px;
+    padding: 0px 18px 8px 19px;
+    top: -8px;
+  }
+
+  &__search-box {
+    display: inline-block;
+    position: relative;
+  }
+
+  &__search-input {
+    background: #093e94;
+    border: 0;
+    padding: 15px 15px 15px 43px;
+    position: absolute;
+    top: -37px;
+    width: 170px;
+    border-bottom: 3px solid white;
+    color: white;
+  }
+  &__search-input:focus {
+    outline: none;
+  }
+  &__search-input-icon {
+    width: 20px;
+    position: absolute;
+    top: -23px;
+    left: 15px;
+  }
+}

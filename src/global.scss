@@ -1,0 +1,9 @@
+@import "./utils/styles/_breakPoint.scss";
+@import "./utils/styles/_color.scss";
+
+@mixin body-padding {
+  @include desktop-up {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}

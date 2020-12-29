@@ -1,0 +1,45 @@
+@import "../../global.scss";
+
+.header {
+  background-color: $primaryColor;
+  padding-top: 20px;
+
+  &__logo {
+    width: 130px;
+    margin-bottom: 20px;
+  }
+
+  @include body-padding;
+
+  &__menu-bar {
+    position: relative;
+  }
+
+  &__menu {
+    display: inline-block;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    li:nth-child(1) {
+      border-bottom: 3px solid #388e3c;
+    }
+    li:nth-child(2) {
+      border-bottom: 3px solid #f50257;
+    }
+    li:nth-child(3) {
+      border-bottom: 3px solid #fcca27;
+    }
+    li:nth-child(4) {
+      border-bottom: 3px solid #2796f3;
+    }
+  }
+
+  &__menu-item {
+    display: inline-block;
+    width: 23%;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+}
