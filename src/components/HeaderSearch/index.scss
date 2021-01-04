@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .header {
   &__search {
     position: absolute;
@@ -32,5 +34,10 @@
     position: absolute;
     top: -23px;
     left: 15px;
+  }
+  @include mobile {
+    &__search {
+      display: none;
+    }
   }
 }

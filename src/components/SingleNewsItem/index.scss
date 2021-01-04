@@ -1,0 +1,55 @@
+@import "../../global.scss";
+@include desktop-up {
+  .news-item {
+    position: relative;
+    width: 32%;
+    height: 300px;
+    border-bottom: 3px solid red;
+    filter: drop-shadow(0 0 0.75rem #c7c7c7);
+  }
+
+  .news-content {
+    position: absolute;
+    bottom: 0px;
+    background-color: $primaryColorTran;
+    width: 100% !important;
+    height: 130px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .news-title {
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+  }
+  .news-para {
+    color: white;
+  }
+}
+.news-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@include mobile {
+  .news-item {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .news-content {
+    position: absolute;
+    bottom: 0px;
+    background-color: $primaryColorTran;
+    width: 100% !important;
+    height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .news-title {
+    color: white;
+  }
+  .news-para {
+    display: none;
+  }
+}

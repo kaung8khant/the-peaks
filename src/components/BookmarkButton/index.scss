@@ -1,0 +1,26 @@
+@import "../../global.scss";
+.bookmark {
+  width: 125px;
+  background: $primaryColor;
+  padding: 5px;
+  padding-left: 28px;
+  position: relative;
+  color: white;
+  border-radius: 5px;
+}
+.bookmark-text {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+.bookmark-icon {
+  position: absolute;
+  width: 20px;
+  left: 6px;
+  top: 4px;
+}
+.bookmark:hover {
+  cursor: pointer;
+}

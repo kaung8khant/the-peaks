@@ -1,0 +1,54 @@
+@import "../../global.scss";
+
+.header {
+  @include mobile {
+    &__mobile-menu-icon {
+      width: 50px;
+      position: absolute;
+      right: 0px;
+      top: -72px;
+    }
+
+    &__mobile-menu {
+      background: $primaryColor;
+      z-index: 1000;
+      position: absolute;
+      top: -94px;
+      left: -20px;
+      right: 0;
+      width: 100vw;
+      animation-name: example;
+      animation-duration: 300ms;
+      height: 100vh;
+    }
+    &__mobile-close {
+      width: 30px;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+    &__mobile-menu-list {
+      margin: auto;
+      margin-top: 100px;
+      padding: 0px;
+    }
+    &__mobile-menu-list > li {
+      display: block;
+      text-align: center;
+      height: 70px;
+    }
+    &__mobile-menu-list > li > a {
+      font-size: 20px;
+      color: white;
+      text-decoration: none;
+    }
+  }
+  @keyframes example {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
