@@ -108,6 +108,7 @@ const Home = () => {
         </div>
         <NewsItem data={sport} />
       </div>
+      <div className="footer"></div>
     </>
   );
 };

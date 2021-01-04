@@ -26,6 +26,7 @@ const BookmarkList = () => {
     <>
       <Header />
       <div className="home">{content}</div>
+      <div className="footer"></div>
     </>
   );
 };

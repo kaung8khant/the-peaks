@@ -22,16 +22,16 @@
       padding: 0;
       margin: 0;
       li:nth-child(1) {
-        border-bottom: 3px solid #388e3c;
+        border-bottom: 3px solid $green;
       }
       li:nth-child(2) {
-        border-bottom: 3px solid #f50257;
+        border-bottom: 3px solid $red;
       }
       li:nth-child(3) {
-        border-bottom: 3px solid #fcca27;
+        border-bottom: 3px solid $yellow;
       }
       li:nth-child(4) {
-        border-bottom: 3px solid #2796f3;
+        border-bottom: 3px solid $blue;
       }
     }
 

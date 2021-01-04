@@ -25,7 +25,7 @@ const BookmarkButton = ({ id, type = "default" }) => {
       ) : (
         <Link to="/bookmark" style={{ textDecoration: "none" }}>
           <div className="bookmark">
-            <div className="bookmark-text">View BOOKMARK</div>
+            <div className="bookmark-text">VIEW BOOKMARK</div>
             <img src={BookmarkIcon} alt="bookmark" className="bookmark-icon" />
           </div>
         </Link>

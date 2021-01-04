@@ -53,6 +53,7 @@ const Article = () => {
           {ReactHtmlParser(data.fields.main)}
         </div>
       </div>
+      <div className="footer"></div>
     </>
   );
 };
