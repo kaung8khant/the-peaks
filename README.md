@@ -5,6 +5,7 @@ News media website using Gurdian api [https://open-platform.theguardian.com/](ht
 ## Running on Server
 
 Please Visit following link to view the website.
+[https://the-peaks.netlify.app/](https://the-peaks.netlify.app/)
 
 ## Running Local
 
